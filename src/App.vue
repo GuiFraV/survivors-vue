@@ -12,7 +12,7 @@ function gainXp(v: number) {
 }
 
 function takeDamage(v: number) {
-  state.hp = Math.max(0, state.hp);
+  state.hp = Math.max(0, state.hp - v);
 }
 
 </script>
